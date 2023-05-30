@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header */
+
+header {
+    height: 80px;
+    padding: 20px 20px;
+    background-color: #FFDAD3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.logo {
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    display: inline-flex;
+}
+
+nav ul li {
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+}
+
+/* hero */
+
+.hero {
+    padding: 10px 20px;
+    height: 400px;
+    background-color: #CCE7FD;
+    margin-bottom: 10px;
+}
+
+.hero .title {
+    border: 1px solid black;
+    height: 370px;
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.article-1 {
+    background-color: #CCE7FD;
+    height: 130px;
+    width: 60%;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.article-1 .title-content {
+    padding: 20px;
+}
+
+.article-1 .autor-content {
+    padding: 0 20px;
+}
+
+.article-2 {
+    background-color: #CCE7FD;
+    height: 230px;
+    width: 60%;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.article-2 .para-content {
+    padding: 10px 20px;
+    font-size: 24px;
+    text-align: justify;
+}
+
+.sidebar {
+    background-color: #CCE7FD;
+    height: 370px;
+    width: 39%;
+    float: right;
+    padding: 10px 20px;
+    margin-top: -140px;
+}
+
+.rectangle {
+    display: flex;
+    align-items: center;
+}
+
+.rec {
+    height: 30px;
+    width: 30px;
+    background-color: #000;
+    margin: 10px 20px 20px 0;
+    border-radius: 50px;
+}
+
+.sidebar a {
+    font-size: 20px;
+    line-height: 30px;
+    color: #000;
+}
+
+.footer {
+    clear: both;
+    background-color: #CCE7FD;
+    padding: 10px 20px;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.content-footer {
+    padding: 10px 20px;
+}
+
+footer {
+    height: 80px;
+    padding: 20px 20px;
+    background-color: #FFDAD3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+
+
+
