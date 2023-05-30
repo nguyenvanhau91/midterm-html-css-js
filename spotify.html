@@ -9,6 +9,11 @@
       href="./assets/images/spotify.png"
       type="image/x-icon"
     />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
     <title>Spotify</title>
     <link rel="stylesheet" href="./assets/css/spotify.css" />
   </head>
@@ -21,20 +26,27 @@
           alt="logo"
           class="header__img-logo"
         />
-        <ul class="header__nav-list">
-          <li class="header__nav-items">
-            <a href="#" class="header__nav-links">Premium</a>
-          </li>
-          <li class="header__nav-items">
-            <a href="#" class="header__nav-links">Discover</a>
-          </li>
-          <li class="header__nav-items">
-            <a href="#" class="header__nav-links">Help</a>
-          </li>
-          <li class="header__nav-items">
-            <a href="#" class="header__nav-links"><span>Download</span></a>
-          </li>
-        </ul>
+        <div class="navbar">
+          <ul class="header__nav-list">
+            <li class="header__nav-items">
+              <a href="#" class="header__nav-links">Premium</a>
+            </li>
+            <li class="header__nav-items">
+              <a href="#" class="header__nav-links">Discover</a>
+            </li>
+            <li class="header__nav-items">
+              <a href="#" class="header__nav-links">Help</a>
+            </li>
+            <li class="header__nav-items">
+              <a href="#" class="header__nav-links"><span>Download</span></a>
+            </li>
+          </ul>
+        </div>
+        <div class="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
       </div>
 
       <!-- feature -->
@@ -60,9 +72,7 @@
           <img src="./assets/images/pic2.jpg" alt="" class="card-image" />
           <div class="card-content">
             <h3 class="card-title">Millions of Songs</h3>
-            <p class="card-info">
-              There are millions of songs on Spotify 
-            </p>
+            <p class="card-info">There are millions of songs on Spotify</p>
           </div>
         </div>
         <div class="card">
@@ -85,5 +95,13 @@
         </div>
       </div>
     </div>
+
+    <script>
+      hamburger = document.querySelector(".hamburger");
+      hamburger.onclick = function() {
+          navBar = document.querySelector(".navbar");
+          navBar.classList.toggle("active");
+      }
+    </script>
   </body>
 </html>
